@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/toCnLL6qdjM4jsamqY6Gf+4KEd8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2311.15874&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-04T05:21:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2311.15874" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.15874v3</id>
+    <title>Sliced optimal transport: is it a suitable replacement?</title>
+    <updated>2024-05-28T04:20:40Z</updated>
+    <link href="https://arxiv.org/abs/2311.15874v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.15874v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a one-parameter family of metrics on the space of Borel probability measures on Euclidean space with finite $p$th moment for $1\leq p &lt;\infty$, called the $\textit{sliced Monge--Kantorovich metrics}$, which include the sliced Wasserstein and max-sliced Wasserstein metrics. We then show that these are complete, separable metric spaces that are topologically equivalent to the classical Monge--Kantorovich metrics and these metrics have a dual representation. However, we also prove these sliced metrics are $\textit{not}$ bi-Lipschitz equivalent to the classical ones in most cases, and also the spaces are (except for an endpoint case) $\textit{not}$ geodesic. The completeness, duality, and non-geodesicness are new even in the sliced and max-sliced Wasserstein cases, and non bi-Lipschitz equivalence is only known for a few specific cases. In particular this indicates that sliced and max-sliced Wasserstein metrics are not suitable direct replacements for the classical Monge--Kantorovich metrics in problems where the specific metric or geodesic structure are critical.</summary>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-27T14:47:27Z</published>
+    <arxiv:comment>26 pages, added results on non bi-Lipschitz equivalence when q is infinity, split off results on disintegrated metrics (to be posted separately), changed title. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.MG"/>
+    <author>
+      <name>Jun Kitagawa</name>
+    </author>
+    <author>
+      <name>Asuka Takatsu</name>
+    </author>
+  </entry>
+</feed>

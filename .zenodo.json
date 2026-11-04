@@ -1,0 +1,103 @@
+{
+ "title": "Compact completion and uniform statistical bounds for hyperbolic geodesic sliced Wasserstein distance",
+ "upload_type": "publication",
+ "publication_type": "preprint",
+ "description": "<p><strong>Unrefereed research candidate.</strong> Data such as trees, hierarchies and networks are often embedded in hyperbolic space. Geodesic hyperbolic sliced Wasserstein distance (GHSW; Bonet et al., 2023) compares two such data clouds cheaply by projecting them onto geodesics through a fixed centre and averaging one-dimensional transport costs. This paper determines exactly what that distance measures.</p><p><strong>Results (proved).</strong> In the Klein ball each geodesic projection is atanh(v&middot;z), and these projections have uniformly bounded angular moments even at the ideal boundary. Hence, for every dimension d &ge; 2 and 1 &le; p &lt; &infin;, GHSW_p extends to a finite metric on all probability measures with no moment assumption; its metric completion is the space of probability measures on the compact closed Klein ball, it metrises weak convergence there, and its exact diameter is 2C_{d,p}^{1/p}. It therefore cannot control hyperbolic transport moments and is exponentially insensitive to depth far from the centre (exact radial rates e^{-(d-1)r}, r e^{-2pr}, e^{-2pr} across d-1 versus 2p). The induced metric on the boundary sphere is computed in every dimension: squared distance &pi;&alpha; for d = 2, (1/2)&alpha;^2 log(1/&alpha;) behaviour for d = 3, and comparable to &alpha;^2 with an exact constant for d &ge; 4. An explicit function shows that the vanishing-at-infinity assertion in Proposition 19 of Bonet, Drumetz and Courty (JMLR 2025) fails. Sampling error obeys distribution-free n^{-1/2} bounds for the powered loss, in expectation and with high probability, with matching minimax rates (n^{-1/(2p)} for the distance itself). Adding one radial Wasserstein term gives a complete metric with the usual hyperbolic Wasserstein topology.</p><p>Credit and scope: the separation mechanism is due to Lyons (2014) and contraction under geodesic projection is known (Chami et al. 2021). Results concern the exact average over all directions with a fixed origin; finitely many directions never separate laws; minimax constants are not sharp (gap about 20&ndash;80); the horospherical construction and general Cartan&ndash;Hadamard manifolds remain open.</p><p>Archive: Pandoc Markdown source, generated LaTeX and PDF, bibliography generated from saved Crossref, arXiv and DataCite records, numerical sanity-check scripts with outputs (normal and python -O), figures, CI and SHA-256 manifest. Assurance: internal AI-assisted review only (not human peer review, independent reproduction or formal verification); numerical checks are floating-point sanity checks, not certificates or proofs. Creator: Anonymous. Text CC0-1.0; code MIT.</p>",
+ "creators": [
+  {
+   "name": "Anonymous"
+  }
+ ],
+ "access_right": "open",
+ "license": "cc-zero",
+ "version": "0.1.0-candidate",
+ "publication_date": "2026-11-04",
+ "keywords": [
+  "sliced Wasserstein distance",
+  "hyperbolic space",
+  "optimal transport",
+  "Klein model",
+  "weak convergence",
+  "metric completion",
+  "minimax estimation",
+  "hyperbolic embeddings"
+ ],
+ "notes": "Code (code/ and tools/) is MIT; prose, manuscript, figures, data, records and all other files are CC0-1.0 (see LICENSE.md). Bibliographic records in tools/records/ are factual registry metadata.",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/ipitchford/hyperbolic-sliced-wasserstein-completion/tree/v0.1.0-candidate",
+   "relation": "isSupplementTo",
+   "scheme": "url"
+  },
+  {
+   "identifier": "https://evidencepress.org/releases/hyperbolic-sliced-wasserstein-completion/",
+   "relation": "isDocumentedBy",
+   "scheme": "url"
+  },
+  {
+   "identifier": "10.1109/tnnls.2025.3551275",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1215/ijm/1446819297",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.jfa.2025.110975",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1007/s10959-008-0151-0",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1007/978-1-4419-6055-9",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1017/cbo9781107359949.008",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1007/b13794",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.5281/zenodo.23295188",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "arXiv:2211.10066",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2403.06560",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2106.03306",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2003.05783",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2311.15874",
+   "relation": "references",
+   "scheme": "arxiv"
+  }
+ ]
+}

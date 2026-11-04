@@ -1,0 +1,187 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 4 November 2026 for release 0.1.0-candidate from the dated prior-art and corpus checks of 1-4 November 2026 (manuscript Section 1 attribution boundary; internal corpus check) and the reference retrieval for the bibliography. It documents the scrutiny performed, not historical priority. No new priority search was run at release preparation.",
+ "contributionMap": [
+  {
+   "claim": "Theorem 2.3: GHSW_p extends with no moment assumption to a metric on probability measures on the closed Klein ball, which is its compact completion; it metrises weak convergence and has exact diameter 2C_{d,p}^{1/p}.",
+   "unit": "statement",
+   "paperLocation": "Theorem 2.3, Section 2",
+   "searches": [
+    {
+     "date": "2026-11-04",
+     "corpus": "web search, arXiv, primary sources Bonet et al. 2023 and Bonet, Drumetz and Courty 2025 including works citing them, GitHub issues and discussions (gh search; clbonet repositories), Evidence Press live feed (237 items) and earlier batch folders",
+     "query": "hyperbolic sliced Wasserstein completion or compactness; geodesic hyperbolic sliced Wasserstein weak topology; GHSW separation; Cartan-Hadamard sliced Wasserstein C_0 backprojection; hyperbolic sliced Wasserstein sample complexity"
+    },
+    {
+     "date": "2026-11-04",
+     "corpus": "api.crossref.org, export.arxiv.org and DataCite (tools/records/)",
+     "query": "registry records for every bibliography entry"
+    },
+    {
+     "date": "2026-11-04",
+     "corpus": "classical integral geometry and Euclidean sliced transport literature named by internal reviewers: Helgason (Radon transforms), Boman-Lindskog (Cramer-Wold), Lyons (strong negative type), Nadjahi et al. 2020, Kitagawa-Takatsu, Park-Slepcev",
+     "query": "Klein model Radon transform; Cramer-Wold hyperbolic; sliced Wasserstein completeness; sliced Wasserstein sample complexity"
+    }
+   ],
+   "closestPriorWork": "Lyons 2014 (separation via the Klein model and Cramer-Wold, credited); Bonet et al. 2023 and 2025 (definition, separation questions); Euclidean completeness results of Kitagawa-Takatsu and Park-Slepcev (different, non-compact setting)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Proposition 3.1: explicit counterexample to the C_0 backprojection assertion in Proposition 19 of Bonet, Drumetz and Courty (JMLR 2025).",
+   "unit": "statement",
+   "paperLocation": "Section 3",
+   "searches": [
+    {
+     "date": "2026-11-04",
+     "corpus": "web search, arXiv, primary sources Bonet et al. 2023 and Bonet, Drumetz and Courty 2025 including works citing them, GitHub issues and discussions (gh search; clbonet repositories), Evidence Press live feed (237 items) and earlier batch folders",
+     "query": "hyperbolic sliced Wasserstein completion or compactness; geodesic hyperbolic sliced Wasserstein weak topology; GHSW separation; Cartan-Hadamard sliced Wasserstein C_0 backprojection; hyperbolic sliced Wasserstein sample complexity"
+    }
+   ],
+   "closestPriorWork": "Bonet, Drumetz and Courty 2025, Proposition 19 and Appendix D.3 (the corrected statement)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Theorem 4.1, Corollary 4.2, Proposition 4.3 and Theorem 4.4: exact radial rates, depth insensitivity and the boundary-sphere metric in every dimension.",
+   "unit": "statement",
+   "paperLocation": "Section 4",
+   "searches": [
+    {
+     "date": "2026-11-04",
+     "corpus": "web search, arXiv, primary sources Bonet et al. 2023 and Bonet, Drumetz and Courty 2025 including works citing them, GitHub issues and discussions (gh search; clbonet repositories), Evidence Press live feed (237 items) and earlier batch folders",
+     "query": "hyperbolic sliced Wasserstein completion or compactness; geodesic hyperbolic sliced Wasserstein weak topology; GHSW separation; Cartan-Hadamard sliced Wasserstein C_0 backprojection; hyperbolic sliced Wasserstein sample complexity"
+    },
+    {
+     "date": "2026-11-04",
+     "corpus": "classical integral geometry and Euclidean sliced transport literature named by internal reviewers: Helgason (Radon transforms), Boman-Lindskog (Cramer-Wold), Lyons (strong negative type), Nadjahi et al. 2020, Kitagawa-Takatsu, Park-Slepcev",
+     "query": "Klein model Radon transform; Cramer-Wold hyperbolic; sliced Wasserstein completeness; sliced Wasserstein sample complexity"
+    }
+   ],
+   "closestPriorWork": "Contraction under geodesic projection (Chami et al. 2021, Proposition 3.5; illustrated by Bonet et al. 2023 and Li et al. 2025); no quantitative rates found",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Theorems 5.1, 5.2, Corollary 5.3, Proposition 5.4 and Theorem 6.1: distribution-free sampling and minimax rates, random-projection error, and the complete radial augmentation.",
+   "unit": "statement",
+   "paperLocation": "Sections 5 and 6",
+   "searches": [
+    {
+     "date": "2026-11-04",
+     "corpus": "web search, arXiv, primary sources Bonet et al. 2023 and Bonet, Drumetz and Courty 2025 including works citing them, GitHub issues and discussions (gh search; clbonet repositories), Evidence Press live feed (237 items) and earlier batch folders",
+     "query": "hyperbolic sliced Wasserstein completion or compactness; geodesic hyperbolic sliced Wasserstein weak topology; GHSW separation; Cartan-Hadamard sliced Wasserstein C_0 backprojection; hyperbolic sliced Wasserstein sample complexity"
+    },
+    {
+     "date": "2026-11-04",
+     "corpus": "classical integral geometry and Euclidean sliced transport literature named by internal reviewers: Helgason (Radon transforms), Boman-Lindskog (Cramer-Wold), Lyons (strong negative type), Nadjahi et al. 2020, Kitagawa-Takatsu, Park-Slepcev",
+     "query": "Klein model Radon transform; Cramer-Wold hyperbolic; sliced Wasserstein completeness; sliced Wasserstein sample complexity"
+    }
+   ],
+   "closestPriorWork": "Nadjahi et al. 2020 slicing method for sample complexity (moment assumptions); Bonet et al. 2023/2025 sample bounds with hyperbolic moments",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Method: Klein-model atanh projection coordinate with a uniform angular moment envelope, giving compactness of the completion and assumption-free estimation.",
+   "unit": "method",
+   "paperLocation": "Lemmas 2.1-2.2",
+   "searches": [
+    {
+     "date": "2026-11-04",
+     "corpus": "web search, arXiv, primary sources Bonet et al. 2023 and Bonet, Drumetz and Courty 2025 including works citing them, GitHub issues and discussions (gh search; clbonet repositories), Evidence Press live feed (237 items) and earlier batch folders",
+     "query": "hyperbolic sliced Wasserstein completion or compactness; geodesic hyperbolic sliced Wasserstein weak topology; GHSW separation; Cartan-Hadamard sliced Wasserstein C_0 backprojection; hyperbolic sliced Wasserstein sample complexity"
+    },
+    {
+     "date": "2026-11-04",
+     "corpus": "classical integral geometry and Euclidean sliced transport literature named by internal reviewers: Helgason (Radon transforms), Boman-Lindskog (Cramer-Wold), Lyons (strong negative type), Nadjahi et al. 2020, Kitagawa-Takatsu, Park-Slepcev",
+     "query": "Klein model Radon transform; Cramer-Wold hyperbolic; sliced Wasserstein completeness; sliced Wasserstein sample complexity"
+    }
+   ],
+   "closestPriorWork": "Klein-model geodesic projections and Radon transforms are classical (Helgason 2011; Lyons 2014); the uniform envelope argument was not found",
+   "verdict": "partially-known-cited"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Bonet, Drumetz and Courty, Sliced-Wasserstein distances and flows on Cartan-Hadamard manifolds, arXiv:2403.06560 (JMLR 26, 2025)",
+   "usedFor": "Proposition 19 and Appendix D.3 quoted and corrected",
+   "readWhat": "Proposition 19, Appendix D.3 and surrounding definitions",
+   "date": "2026-11-04",
+   "evidenceLocator": "manuscript Section 3"
+  },
+  {
+   "citation": "Bonet, Chapel, Drumetz and Courty, Hyperbolic sliced-Wasserstein via geodesic and horospherical projections, arXiv:2211.10066 (PMLR 221, 2023)",
+   "usedFor": "Definition of GHSW, projection formulae, sample bounds",
+   "readWhat": "Full text",
+   "date": "2026-11-04",
+   "evidenceLocator": "manuscript Sections 1-2"
+  },
+  {
+   "citation": "Lyons, Hyperbolic space has strong negative type, Illinois J. Math. 58(4), 2014, DOI 10.1215/ijm/1446819297",
+   "usedFor": "Separation mechanism credited",
+   "readWhat": "Section 2",
+   "date": "2026-11-04",
+   "evidenceLocator": "manuscript Section 1 attribution boundary"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Minimax constants are not sharp (upper/lower ratio about 20-80).",
+   "closingQuestion": "What are the sharp constants?",
+   "triedOrSearched": "Two-point lower bound and Jensen upper bound; ratios computed and stated.",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "New research.",
+   "whyNotClosedNow": "Beyond the scope of this release."
+  },
+  {
+   "limitation": "Results cover only the exact average over all directions with a fixed origin; finitely many directions never separate (Proposition 6.2).",
+   "closingQuestion": "What holds for data-dependent origins or other angular measures?",
+   "triedOrSearched": "Stated as scope; Proposition 5.4 bounds random-projection error for fixed pairs.",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "New research.",
+   "whyNotClosedNow": "Beyond the scope of this release."
+  },
+  {
+   "limitation": "Horospherical construction, general Cartan-Hadamard manifolds and sampling rates for the augmented metric are not treated.",
+   "closingQuestion": "Do analogous completion and boundary results hold there?",
+   "triedOrSearched": "Recorded as open in Section 7.",
+   "estimatedCost": "weeks",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "New research.",
+   "whyNotClosedNow": "Beyond the scope of this release."
+  },
+  {
+   "limitation": "Numerical scripts could be silently disabled under python -O or accept a corrupted value.",
+   "closingQuestion": "Do the checks fail when an expected value is wrong, including under python -O?",
+   "triedOrSearched": "All checks are explicit (no assert); a corrupted boundary identity (beta_2 = pi alpha changed to 1.01 pi alpha) makes verify_and_plot.py exit non-zero under -O (release gate negative control).",
+   "estimatedCost": "1 hour",
+   "decision": "CLOSED",
+   "cheap": true
+  },
+  {
+   "limitation": "Priority holds only within a bounded search.",
+   "closingQuestion": "Have these results appeared elsewhere?",
+   "triedOrSearched": "Dated searches of primary sources, citing works, web, arXiv, GitHub and the Evidence Press corpus; no author enquiry.",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Specialist review and correspondence are out of scope.",
+   "whyNotClosedNow": "Requires specialist review."
+  }
+ ],
+ "extensionScout": {
+  "by": "Internal AI-assisted reviewers and the lead, 4 November 2026",
+  "date": "2026-11-04",
+  "proposals": [
+   "Boundary geometry in every dimension",
+   "Rate for the unpowered distance",
+   "High-probability sampling bound",
+   "Practical meaning of depth saturation"
+  ],
+  "actions": [
+   "Closed in the revision round: Theorem 4.4, Corollary 5.3, Theorem 5.1(ii), Corollary 4.2; remaining gaps recorded as open in Section 7"
+  ]
+ }
+}

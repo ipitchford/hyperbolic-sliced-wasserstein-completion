@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research candidate by its DOI."
+title: "Compact completion and uniform statistical bounds for hyperbolic geodesic sliced Wasserstein distance"
+type: software
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+doi: 10.5281/zenodo.23938270
+date-released: 2026-11-04
+repository-code: "https://github.com/ipitchford/hyperbolic-sliced-wasserstein-completion"
+url: "https://evidencepress.org/releases/hyperbolic-sliced-wasserstein-completion/"
+license:
+  - CC0-1.0
+  - MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23938270
+    description: "Version DOI (0.1.0-candidate)"
+  - type: doi
+    value: 10.5281/zenodo.23938269
+    description: "Concept DOI (all versions)"
+keywords:
+  - sliced Wasserstein distance
+  - hyperbolic space
+  - optimal transport
+  - Klein model
+  - weak convergence
+  - minimax estimation
+abstract: "Geodesic hyperbolic sliced Wasserstein distance (Bonet et al. 2023) extends, with no moment assumption, to a metric whose completion is the space of probability measures on the compact closed Klein ball; it metrises weak convergence there and has exact diameter 2C_{d,p}^{1/p}. Exact radial rates show it is exponentially insensitive to depth; the induced boundary-sphere metric is computed in every dimension; the vanishing-at-infinity assertion of Bonet, Drumetz and Courty (JMLR 2025, Prop. 19) is corrected by an explicit function; distribution-free optimal estimation rates hold in expectation and with high probability; one radial term gives a complete metric with the hyperbolic Wasserstein topology. Unrefereed candidate; internal AI-assisted review only. Text CC0-1.0; code MIT."

@@ -1,0 +1,10 @@
+{
+  "checks_passed": true,
+  "projection_instances": 36,
+  "max_projection_error": 3.5558305633287546e-08,
+  "max_constant_error": 4.440892098500626e-16,
+  "max_dilogarithm_error": 7.922551503725117e-13,
+  "radial_cases": 24,
+  "figures": 2,
+  "data_file": "_results.json"
+}

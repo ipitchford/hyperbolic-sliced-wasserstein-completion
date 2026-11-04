@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zRkKmIoceRYIY4CAmvQRQgqv/20</id>
+  <title>arXiv Query: search_query=&amp;id_list=2106.03306&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-04T05:21:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2106.03306" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.03306v1</id>
+    <title>HoroPCA: Hyperbolic Dimensionality Reduction via Horospherical Projections</title>
+    <updated>2021-06-07T02:32:56Z</updated>
+    <link href="https://arxiv.org/abs/2106.03306v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.03306v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies Principal Component Analysis (PCA) for data lying in hyperbolic spaces. Given directions, PCA relies on: (1) a parameterization of subspaces spanned by these directions, (2) a method of projection onto subspaces that preserves information in these directions, and (3) an objective to optimize, namely the variance explained by projections. We generalize each of these concepts to the hyperbolic space and propose HoroPCA, a method for hyperbolic dimensionality reduction. By focusing on the core problem of extracting principal directions, HoroPCA theoretically better preserves information in the original data such as distances, compared to previous generalizations of PCA. Empirically, we validate that HoroPCA outperforms existing dimensionality reduction methods, significantly reducing error in distance preservation. As a data whitening method, it improves downstream classification by up to 3.9% compared to methods that don't use whitening. Finally, we show that HoroPCA can be used to visualize hyperbolic data in two dimensions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-07T02:32:56Z</published>
+    <arxiv:comment>ICML 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>PMLR 139:1419-1429, 2021</arxiv:journal_ref>
+    <author>
+      <name>Ines Chami</name>
+    </author>
+    <author>
+      <name>Albert Gu</name>
+    </author>
+    <author>
+      <name>Dat Nguyen</name>
+    </author>
+    <author>
+      <name>Christopher Ré</name>
+    </author>
+  </entry>
+</feed>
